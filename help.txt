@@ -1,0 +1,10 @@
+1. initialize jest: "npm init -y"
+2. install jest into the project: "npm install --save-dev jest"
+3. change "scripts":{
+    test: "echo \"Error: no test specified\" && exit 1"
+} 
+to
+"scripts":{
+    test: "jest"
+}
+4. "npm test" to test
